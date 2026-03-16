@@ -469,10 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e777db48148be884ea04100d31995ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MyFirstScript
-  _speed: 5
-  _rigidbody: {fileID: 2059966755}
-  _direction: {x: 0, y: 0, z: 0}
-  _prefab: {fileID: 2059966754}
+  _prefab: {fileID: 2602419425289941284, guid: fb27318d80e190d4cae188949ac5f6d9, type: 3}
   _spawnPoint: {fileID: 1111513951}
 --- !u!4 &479639143
 Transform:
@@ -597,7 +594,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688603507}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2aed0935c68aa540815a0029f4a9c33, type: 3}
   m_Name: 
@@ -839,16 +836,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2059966754 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2602419425289941284, guid: fb27318d80e190d4cae188949ac5f6d9, type: 3}
-  m_PrefabInstance: {fileID: 359724975}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &2059966755 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: -4742453468270346563, guid: fb27318d80e190d4cae188949ac5f6d9, type: 3}
-  m_PrefabInstance: {fileID: 359724975}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
